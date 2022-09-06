@@ -8,4 +8,4 @@ def test_empty():
 def test_it():
 	s = Stack()
 	s.push(1)
- 	assert s.size() ==1
+ 	assert s.size() == 1
