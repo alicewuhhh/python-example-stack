@@ -1,4 +1,3 @@
-!pip install Stack
 from Stack import Stack
 
 def test_empty():
