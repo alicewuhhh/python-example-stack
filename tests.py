@@ -6,13 +6,12 @@ def test_empty():
 	assert s.size() == 0
 
 def test_it():
-	'''
-	Write a simple test.
-	'''
-        s = Stack()
-# 	assert s.size == 0
+	s = Stack()
 	s.push(1)
  	assert s.size() ==1
+	
+# 	assert s.size == 0
+
 # 	for i in range(1):
 #   		s.push(i)
 # 	assert s.size() = 101
